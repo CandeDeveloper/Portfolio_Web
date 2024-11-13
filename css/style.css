@@ -1,0 +1,15 @@
+#descarga{
+    background-color: #6C0199;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+#descarga:hover{
+    background-color: #B629F2;
+}

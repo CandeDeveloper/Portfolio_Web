@@ -66,8 +66,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-color: #ffffff;
+  --bs-link-hover-color: #B629F2;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
   --bs-body-colorv2: #171717;
@@ -101,7 +101,7 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: #B629F2;
   border: 0;
   border-top: 1px solid;
   opacity: 0.25;
@@ -10924,17 +10924,17 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #fff;
+  background-color: #6C0199;
+  color: #ffff;
   border-radius: 100%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-right: 1.5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #B629F2;
 }
 
 .skilss-icons img {
