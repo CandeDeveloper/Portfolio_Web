@@ -1,15 +1,36 @@
-#descarga{
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#descarga {
     background-color: #6C0199;
     padding: 10px 30px;
     border-radius: 10px;
     border: none;
 
-    a{
-        color: white;
-        text-decoration: none;
-    }
+ 
 }
 
-#descarga:hover{
+#descarga:hover {
     background-color: #B629F2;
+}
+
+.card{
+width: 16rem;
+}
+
+#lista-proyectos{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+#lista-proyectos li{
+    margin: 10px 8px ;
+}
+
+#lista-proyectos li .card p{
+color:#171717 ;
 }
