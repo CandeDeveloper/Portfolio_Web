@@ -11058,3 +11058,21 @@ footer{
   text-align: center;
   width: 100%;
 }
+
+/* Animacion */
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#sobre-mi{
+  animation: slideIn 1s ease-out;
+}
+
