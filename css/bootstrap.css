@@ -10988,14 +10988,16 @@ a {
 }
 
 #descarga {
-  background-color: #6C0199;
+  background-color: #6D0199;
   padding: 10px 30px;
   border-radius: 10px;
   border: none;
+  color: white;
 }
 
-#descarga:hover {
-  background-color: #B629F2;
+#descarga :hover {
+  background-color: (--bs-link-hover-color);
+
 }
 
 .card{
