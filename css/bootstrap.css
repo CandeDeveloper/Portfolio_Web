@@ -11047,3 +11047,10 @@ form {
 #contacto{
   padding-right: 0;
 }
+
+footer{
+  background-color: #6C0199;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
