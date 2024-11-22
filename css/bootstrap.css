@@ -11037,3 +11037,7 @@ form {
 .btn {
   padding: 10px 20px;
 }
+
+#contacto{
+  padding-right: 0;
+}
