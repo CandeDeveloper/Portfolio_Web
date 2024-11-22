@@ -573,6 +573,7 @@ progress {
 
 .list-inline-item {
   display: inline-block;
+  margin: 5px;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -11026,10 +11027,15 @@ width: 16rem;
 
 }
 
+
+#lista-servicios li .card :hover{
+ background-color: rgba(223, 154, 252);
+}
+
 form {
   max-width: 600px;
-  margin: 0 auto; /* Centra el formulario */
-  background-color: #f8f9fa; /* Color de fondo suave */
+  margin: 0 auto; 
+  background-color: #f8f9fa; 
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
