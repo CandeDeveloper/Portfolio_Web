@@ -778,7 +778,7 @@ progress {
 }
 
 .col-10 {
-  flex: 0 0 auto;
+  flex: 1 1 auto;
   width: 83.33333333%;
 }
 
@@ -7385,6 +7385,7 @@ textarea.form-control-lg {
 
 .justify-content-center {
   justify-content: center !important;
+  width: 80%;
 }
 
 .justify-content-between {
@@ -11023,4 +11024,16 @@ width: 16rem;
 #lista-servicios  li{
   margin: 5px;
 
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto; /* Centra el formulario */
+  background-color: #f8f9fa; /* Color de fondo suave */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 10px 20px;
 }
